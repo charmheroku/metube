@@ -1,0 +1,28 @@
+{
+  "name": "metube",
+  "version": "1.0.0",
+  "description": "Youtube clone",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charmheroku/metube.git"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "author": "Charmheroku",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charmheroku/metube/issues"
+  },
+  "homepage": "https://github.com/charmheroku/metube#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "nodemon": "^2.0.14"
+  }
+}
